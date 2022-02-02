@@ -6,10 +6,10 @@ try {
     var paths = new Array();
     var keyString = 'openwrt-cache';
     var restoreKeys = new Array();
-    const prefix = core.getInput('prefix');
-    if (prefix != '') {
-        process.chdir(prefix);
-    }
+//     const prefix = core.getInput('prefix');
+//     if (prefix != '') {
+//         process.chdir(prefix);
+//     }
 
     const toolchain = core.getInput('toolchain');
     var skiptoolchain = core.getInput('skip');
